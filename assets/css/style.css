@@ -17,9 +17,18 @@ ul {
   list-style-type: none;
 }
 
-a{
+li {
+  padding: 10px 0px;
+}
+
+
+a {
   text-decoration: none;
   color: white;
+}
+
+h3 {
+  text-transform: uppercase;
 }
 
 main {
@@ -37,8 +46,10 @@ footer {
   width: 250px;
   height: 100%;
   background-color: black;
+  color: white;
   padding: 15px;
 }
+
 
 #content {
   height: 100%;
@@ -54,6 +65,21 @@ footer {
   background-color: rgb(44, 60, 97);
   padding: 15px;
 }
+
+/***************UTILITIES********************/
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 /*****************CONTENT*********************/
 /******top-bar******/
@@ -71,12 +97,29 @@ footer {
 
 .logo {
   width: 150px;
+  margin-bottom: 30px;
 }
 
 .side-bar nav img {
   width: 30px;
 }
 
-nav a img{
-  width: 30px;
+li a img {
+
+  height: 40px;
+}
+
+li a span {
+  line-height: 40px;
+}
+
+
+i {
+  font-size: 40px;
+}
+
+li a img,
+li a span,
+i {
+  vertical-align: middle;
 }
