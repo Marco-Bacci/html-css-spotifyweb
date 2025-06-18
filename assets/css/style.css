@@ -22,18 +22,25 @@ li {
 
 }
 
+
 h2,
 h3 {
   color: white;
 }
 
+
 h4 {
   color: rgb(125, 127, 132);
+  margin-top: 10px;
 }
 
+.card h3{
+  margin-top: 15px;
+}
 .card h3,
 .card h4 {
   text-align: center;
+
 }
 
 a {
@@ -88,8 +95,11 @@ footer {
 }
 
 #main-content {
-
   padding: 20px;
+}
+
+.categories{
+  margin: 30px 0px;
 }
 
 
