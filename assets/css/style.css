@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'roboto', sans-serif
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-
-
 
 
 main {
@@ -21,7 +23,6 @@ footer {
   height: 100px;
   background-color: rgb(40, 40, 40);
 }
-
 
 
 #sidebar {
@@ -37,6 +38,24 @@ footer {
 }
 
 #topbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   height: 100px;
   background-color: rgb(44, 60, 97);
+  padding: 15px;
 }
+
+.cta{
+  color: white;
+  height: 40px;
+  padding: 0px 15px;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 50px;
+  line-height: 40px;
+}
+ 
+
+ 
+  
