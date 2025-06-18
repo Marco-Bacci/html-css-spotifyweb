@@ -70,9 +70,14 @@ main {
 
 footer {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
+  padding: 0px 15px;
   background-color: rgb(40, 40, 40);
+  color: white;
 }
+  
 
 
 #side-bar {
@@ -113,14 +118,6 @@ footer {
 
 .d-flex {
   display: flex;
-}
-
-.f-column {
-  flex-direction: column;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .mt-20 {
@@ -202,3 +199,12 @@ i {
 .artists img {
   border-radius: 50%;
 }
+
+/****************FOOTER******************/
+footer img{
+  width: 40px;
+}
+footer i {
+  font-size: 20px;
+}
+
