@@ -21,10 +21,17 @@ li {
   padding: 10px 0px;
 }
 
+h2,
+h3 {
+  color: white;
+}
+h4{
+  color:rgb(125, 127, 132) ;
+}
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(125, 127, 132);
 }
 
 #main-content a {
@@ -72,6 +79,11 @@ footer {
   padding: 15px;
 }
 
+#main-content {
+  overflow-y: auto;
+  padding: 20px;
+}
+
 /***************UTILITIES********************/
 
 .d-flex {
@@ -84,6 +96,11 @@ footer {
 
 .mt-20 {
   margin-top: 20px;
+}
+
+
+.c-white {
+  color: white;
 }
 
 
@@ -137,8 +154,25 @@ i {
 }
 
 /*************MAIN-CONTENT*************/
-
+/******6 columns******/
 #main-content li {
   font-size: 14px;
   margin: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.col-16 {
+  width: calc(100% / 6 - 10px);
+}
+
+
+/*****************DEBUG**********************/
+.green-box {
+  background-color: greenyellow;
+  height: 400px;
 }
