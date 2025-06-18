@@ -119,15 +119,38 @@ footer {
 .d-flex {
   display: flex;
 }
+.items-center{
+  align-items: center;
+}
 
+.text-center{
+  text-align: center;
+}
 .mt-20 {
   margin-top: 20px;
+}
+
+.mr-15{
+  margin-right: 15px;
+}
+.mr-45{
+  margin-right: 45px;
 }
 
 .h-50 {
   height: 50%;
 }
 
+.w-400{
+  width: 400px;
+}
+
+.w-100{
+  width: 100px;
+}
+.c-lightgrey{
+  color: rgb(125, 127, 132);
+}
 
 /*****************CONTENT*********************/
 /******top-bar******/
@@ -207,4 +230,17 @@ footer img{
 footer i {
   font-size: 20px;
 }
+.player-console i{
+  margin: 0px 15px;
+}
+.s-icons i{
+  margin: 0px 5px;
+}
+.music-bar{
+  height: 4px;
+  background-color: rgb(90, 90, 90);
+  margin: 15px;
+}
+
+
 
