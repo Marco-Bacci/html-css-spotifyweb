@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'roboto', sans-serif
 }
 
@@ -13,6 +13,14 @@ body{
   margin: 0 auto;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
 
 main {
   display: flex;
@@ -29,6 +37,7 @@ footer {
   width: 250px;
   height: 100%;
   background-color: black;
+  padding: 15px;
 }
 
 #content {
@@ -46,7 +55,9 @@ footer {
   padding: 15px;
 }
 
-.cta{
+/*****************CONTENT*********************/
+/******top-bar******/
+.cta {
   color: white;
   height: 40px;
   padding: 0px 15px;
@@ -55,7 +66,17 @@ footer {
   border-radius: 50px;
   line-height: 40px;
 }
- 
 
- 
-  
+/******side-bar******/
+
+.logo {
+  width: 150px;
+}
+
+.side-bar nav img {
+  width: 30px;
+}
+
+nav a img{
+  width: 30px;
+}
