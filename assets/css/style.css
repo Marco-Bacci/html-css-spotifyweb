@@ -167,7 +167,7 @@ i {
 }
 
 .col-16 {
-  width: calc(100% / 6 - 10px);
+  width: calc(100vw / 6 - 10px);
 }
 
 
