@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -25,6 +25,11 @@ li {
 a {
   text-decoration: none;
   color: white;
+}
+
+#main-content a {
+  text-transform: uppercase;
+  color: rgb(125, 127, 132);
 }
 
 h3 {
@@ -47,32 +52,39 @@ footer {
   height: 100%;
   background-color: black;
   color: white;
-  padding: 15px;
+  padding: 20px;
 }
 
 
 #content {
   height: 100%;
   width: calc(100vw - 250px);
-  background-color: aqua;
+  background-color: rgb(20, 25, 34);
 }
+
 
 #topbar {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 100px;
-  background-color: rgb(44, 60, 97);
+  background-color: rgb(8, 11, 18);
   padding: 15px;
 }
 
 /***************UTILITIES********************/
 
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
-
-
 
 
 
@@ -122,4 +134,11 @@ li a img,
 li a span,
 i {
   vertical-align: middle;
+}
+
+/*************MAIN-CONTENT*************/
+
+#main-content li {
+  font-size: 14px;
+  margin: 10px;
 }
