@@ -19,8 +19,12 @@ ul {
 
 li {
   padding: 10px 0px;
-
 }
+
+hr{
+  margin: 15px 0px;
+}
+
 
 
 h2,
@@ -34,9 +38,10 @@ h4 {
   margin-top: 10px;
 }
 
-.card h3{
+.card h3 {
   margin-top: 15px;
 }
+
 .card h3,
 .card h4 {
   text-align: center;
@@ -64,12 +69,13 @@ main {
 
 
 footer {
+  display: flex;
   height: 100px;
   background-color: rgb(40, 40, 40);
 }
 
 
-#sidebar {
+#side-bar {
   width: 250px;
   height: 100%;
   background-color: black;
@@ -98,7 +104,7 @@ footer {
   padding: 20px;
 }
 
-.categories{
+.categories {
   margin: 30px 0px;
 }
 
@@ -109,6 +115,10 @@ footer {
   display: flex;
 }
 
+.f-column {
+  flex-direction: column;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -117,12 +127,9 @@ footer {
   margin-top: 20px;
 }
 
-
-
-
-
-
-
+.h-50 {
+  height: 50%;
+}
 
 
 /*****************CONTENT*********************/
@@ -138,35 +145,36 @@ footer {
 }
 
 /******side-bar******/
+#side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 
 .logo {
   width: 150px;
   margin-bottom: 30px;
 }
 
-.side-bar nav img {
-  width: 30px;
-}
 
-li a img {
-
-  height: 40px;
-}
-
-li a span {
-  line-height: 40px;
-}
-
-
-i {
-  font-size: 40px;
-}
-
-li a img,
-li a span,
-i {
+#side-bar img {
+  height: 30px;
   vertical-align: middle;
 }
+
+#side-bar span {
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+i {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+
+
 
 /*************MAIN-CONTENT*************/
 /******6 columns******/
@@ -190,3 +198,7 @@ i {
 }
 
 /******2 columns******/
+
+.artists img {
+  border-radius: 50%;
+}
