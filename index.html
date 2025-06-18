@@ -71,151 +71,160 @@
       <!--------------main-content------------->
       <!----------------nav menu------------->
       <div id="main-content">
-        <nav>
-          <ul class="d-flex justify-center">
-            <li>
-              <a href="#">in evidenza</a>
-            </li>
-            <li>
-              <a href="#">podcast</a>
-            </li>
-            <li>
-              <a href="#">classifiche</a>
-            </li>
-            <li>
-              <a href="#">generi e mood</a>
-            </li>
-            <li>
-              <a href="#">nuove uscite</a>
-            </li>
-            <li>
-              <a href="#">scopri</a>
-            </li>
-          </ul>
-        </nav>
+        <section class="menu">
+          <nav>
+            <ul class="d-flex justify-center">
+              <li>
+                <a href="#">in evidenza</a>
+              </li>
+              <li>
+                <a href="#">podcast</a>
+              </li>
+              <li>
+                <a href="#">classifiche</a>
+              </li>
+              <li>
+                <a href="#">generi e mood</a>
+              </li>
+              <li>
+                <a href="#">nuove uscite</a>
+              </li>
+              <li>
+                <a href="#">scopri</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
         <!--------------6 columns------------->
-        <h2>Recently played</h2>
-        <div class="row">
-          <div class="col-16"> <!-- 1 -->
-            <div class="card">
-              <div class="movie-image">
-                <img src="./assets/img/metal_lifting.jpg" alt="heavy metal">
+        <section class="movies">
+          <h2>Recently played</h2>
+          <div class="row">
+            <div class="col-16"> <!-- 1 -->
+              <div class="card">
+                <div class="cover">
+                  <img src="./assets/img/metal_lifting.jpg" alt="heavy metal">
+                </div>
+                <div class="name">
+                  <h3>Heavy Metal</h3>
+                  <h4>Subtitle</h4>
+                </div>
               </div>
-              <div class="movie-name">
-                <h3>Heavy Metal</h3>
-                <h4>Subtitle</h4>
+            </div>
+            <div class="col-16"> <!-- 2 -->
+              <div class="card">
+                <div class="cover">
+                  <img src="./assets/img/stranger.jpeg" alt="stranger things">
+                </div>
+                <div class="name">
+                  <h3>Stranger Things, Vol. 1 (aNetflix Original Series Soundtrack)</h3>
+                  <h4>Kyle Dixon & Michael Stein</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-16"> <!-- 3 -->
+              <div class="card">
+                <div class="cover">
+                  <img src="./assets/img/aquietplace.jpeg" alt="a quiet place">
+                </div>
+                <div class="name">
+                  <h3>A quiet place</h3>
+                  <h4>Subtitle</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-16"> <!-- 4 -->
+              <div class="card">
+                <div class="cover">
+                  <img src="./assets/img/split.jpeg" alt="split">
+                </div>
+                <div class="name">
+                  <h3>Split</h3>
+                  <h4>Subtitle</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-16"> <!-- 5 -->
+              <div class="card">
+                <div class="cover">
+                  <img src="./assets/img/cure.jpeg" alt="a cure for wellness">
+                </div>
+                <div class="name">
+                  <h3>A cure for wellness</h3>
+                  <h4>Subtitle</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-16"> <!-- 6 -->
+              <div class="card">
+                <div class="cover">
+                  <img src="./assets/img/sinister.jpeg" alt="sinister">
+                </div>
+                <div class="name">
+                  <h3>Sinister</h3>
+                  <h4>Subtitle</h4>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-16"> <!-- 2 -->
-            <div class="card">
-              <div class="movie-image">
-                <img src="./assets/img/stranger.jpeg" alt="stranger things">
-              </div>
-              <div class="movie-name">
-                <h3>Stranger Things, Vol. 1 (aNetflix Original Series Soundtrack)</h3>
-                <h4>Kyle Dixon & Michael Stein</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-16"> <!-- 3 -->
-            <div class="card">
-              <div class="movie-image">
-                <img src="./assets/img/aquietplace.jpeg" alt="a quiet place">
-              </div>
-              <div class="movie-name">
-                <h3>A quiet place</h3>
-                <h4>Subtitle</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-16"> <!-- 4 -->
-            <div class="card">
-              <div class="movie-image">
-                <img src="./assets/img/split.jpeg" alt="split">
-              </div>
-              <div class="movie-name">
-                <h3>Split</h3>
-                <h4>Subtitle</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-16"> <!-- 5 -->
-            <div class="card">
-              <div class="movie-image">
-                <img src="./assets/img/cure.jpeg" alt="a cure for wellness">
-              </div>
-              <div class="movie-name">
-                <h3>A cure for wellness</h3>
-                <h4>Subtitle</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-16"> <!-- 6 -->
-            <div class="card">
-              <div class="movie-image">
-                <img src="./assets/img/sinister.jpeg" alt="sinister">
-              </div>
-              <div class="movie-name">
-                <h3>Sinister</h3>
-                <h4>Subtitle</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
         <!--------------2 columns------------->
-        <h2>Creato per John Doe</h2>
-        <h4>Più ascolti, più accurati saranno i suggerimenti</h4>
-        <div class="row">
-          <div class="col-16">
-            <div class="card">
-              <div class="movie-image">
-                <img src="./assets/img/radar.jpeg" alt="radar">
+        <section class="favourites">
+          <h2>Creato per John Doe</h2>
+          <h4>Più ascolti, più accurati saranno i suggerimenti</h4>
+          <div class="row">
+            <div class="col-16"> <!-- 1 -->
+              <div class="card">
+                <div class="cover">
+                  <img src="./assets/img/radar.jpeg" alt="radar">
+                </div>
+                <div class="name">
+                  <h3>Release Radar</h3>
+                </div>
               </div>
-              <div class="movie-name">
-                <h3>Release Radar</h3>
+            </div>
+            <div class="col-16"> <!-- 2 -->
+              <div class="card">
+                <div class="cover">
+                  <img src="./assets/img/mixdaily.jpeg" alt="mixdaily">
+                </div>
+                <div class="name">
+                  <h3>Daily mix</h3>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-16">
-            <div class="card">
-              <div class="movie-image">
-                <img src="./assets/img/mixdaily.jpeg" alt="mixdaily">
+        </section>
+        <!--------------2 other columns------------->
+        <section class="artists">
+          <h2>Artisti più popolari</h2>
+          <h4>Più ascolti, più accurati saranno i suggerimenti</h4>
+          <div class="row">
+            <div class="col-16"> <!-- 1 -->
+              <div class="card">
+                <div class="cover">
+                  <img src="./assets/img/youg.jpeg" alt="Lana del Rey">
+                </div>
+                <div class="name">
+                  <h3>Lana del Rey</h3>
+                </div>
               </div>
-              <div class="movie-name">
-                <h3>Daily mix</h3>
+            </div>
+            <div class="col-16"> <!-- 2 -->
+              <div class="card">
+                <div class="cover">
+                  <img src="./assets/img/einaudi.jpeg" alt="Einaudi">
+                </div>
+                <div class="name">
+                  <h3>Ludovico Einaudi</h3>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <h2>Artisti più popolari</h2>
-        <h4>Più ascolti, più accurati saranno i suggerimenti</h4>
-        <div class="row">
-          <div class="col-16">
-            <div class="card">
-              <div class="movie-image">
-                <img src="./assets/img/youg.jpeg" alt="Lana del Rey">
-              </div>
-              <div class="movie-name">
-                <h3>Lana del Rey</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-16">
-            <div class="card">
-              <div class="movie-image">
-                <img src="./assets/img/einaudi.jpeg" alt="Einaudi">
-              </div>
-              <div class="movie-name">
-                <h3>Ludovico Einaudi</h3>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
 
-        
 
-        
+
+
 
 
 

@@ -31,6 +31,11 @@ h4 {
   color: rgb(125, 127, 132);
 }
 
+.card h3,
+.card h4 {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   color: rgb(125, 127, 132);
@@ -49,7 +54,7 @@ main {
   display: flex;
   height: calc(100vh - 100px);
 }
-  
+
 
 footer {
   height: 100px;
@@ -81,12 +86,12 @@ footer {
   background-color: rgb(20, 25, 34);
   overflow-y: auto;
 }
-  
+
 #main-content {
-  
+
   padding: 20px;
 }
-  
+
 
 /***************UTILITIES********************/
 
@@ -175,11 +180,3 @@ i {
 }
 
 /******2 columns******/
-
-
-
-/*****************DEBUG**********************/
-.green-box {
-  background-color: greenyellow;
-  height: 400px;
-}
