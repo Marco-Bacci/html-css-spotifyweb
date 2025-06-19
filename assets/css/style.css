@@ -79,6 +79,7 @@ footer {
   padding: 0px 15px;
   background-color: rgb(40, 40, 40);
   color: white;
+  gap: 10px;
 }
 
 
@@ -166,12 +167,13 @@ footer {
   width: 50%;
 }
 
-.w-500 {
-  width: 500px;
-}
 
 .w-100 {
   width: 100px;
+}
+
+.p-w-100{
+  width: 100%;
 }
 
 .pd-10 {
@@ -331,6 +333,15 @@ footer i {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-grow: 1;
+}
+
+.song-lenght{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
 }
 
 
