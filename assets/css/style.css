@@ -279,8 +279,8 @@ i {
 }
 
 #main-content img {
+  display: block;
   width: 100%;
-  object-fit: cover;
 }
 
 .cover {
