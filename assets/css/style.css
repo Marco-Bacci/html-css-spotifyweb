@@ -230,15 +230,19 @@ footer {
   line-height: 40px;
   cursor: pointer;
 }
-
+/***********GREEN DOWN LINE***********************/
 .down-line {
+  position:absolute;
+  top: 25px;
+  left: 25px;
   height: 3px;
   background-color: rgb(131, 188, 65);
-  margin: 5px;
   border-radius: 50px;
-  margin-left: 25px
 }
+  
+  
 
+/***********GREEN DOWN LINE***********************/
 
 .home {
   border-left: 3px solid rgb(131, 188, 65);
