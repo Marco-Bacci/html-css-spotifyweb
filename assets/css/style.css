@@ -280,6 +280,7 @@ i {
 
 #main-content img {
   width: 100%;
+  object-fit: cover;
 }
 
 .cover {
@@ -341,7 +342,7 @@ footer i {
   margin: 15px;
   border-radius: 50px;
 }
-  
+
 
 .colored-bar {
   height: 100%;
@@ -363,8 +364,8 @@ footer i {
   border-radius: 50%;
   cursor: pointer;
 }
-  
-  
+
+
 
 
 
@@ -386,9 +387,21 @@ footer i {
   padding: 0px 20px;
   font-size: 1.1em;
 }
-.colored-bar:hover{
-  background-color:rgb(131, 188, 65);
+
+.colored-bar:hover {
+  background-color: rgb(131, 188, 65);
 }
-.colored-bar:hover .player-indicator{
+
+.colored-bar:hover .player-indicator {
   display: block;
+}
+
+h6:hover {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+}
+
+#side-bar i:hover {
+  color: white;
 }
