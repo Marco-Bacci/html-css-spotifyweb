@@ -138,6 +138,10 @@ footer {
   text-align: center;
 }
 
+.p-relative {
+  position: relative;
+}
+
 .p-absolute {
   position: absolute;
 }
@@ -225,7 +229,7 @@ footer {
 #side-bar li,
 .logo,
 h3 {
-  padding: 15px;
+  padding: 5px 15px;
 }
 
 .logo {
@@ -233,6 +237,11 @@ h3 {
   margin-bottom: 30px;
 }
 
+
+#side-bar img {
+  height: 30px;
+  vertical-align: middle;
+}
 
 #side-bar img {
   height: 30px;
@@ -325,19 +334,39 @@ footer i {
   margin: 0px 5px;
 }
 
+/*player console*/
 .music-bar {
   height: 4px;
   background-color: rgb(90, 90, 90);
   margin: 15px;
   border-radius: 50px;
 }
+  
 
 .colored-bar {
   height: 100%;
   width: 20%;
   background-color: white;
   border-radius: 50px;
+  cursor: pointer;
 }
+
+.player-indicator {
+  display: none;
+  position: absolute;
+  left: 90%;
+  top: -5px;
+  height: 15px;
+  width: 15px;
+  background-color: silver;
+  border: 1px solid grey;
+  border-radius: 50%;
+  cursor: pointer;
+}
+  
+  
+
+
 
 /****HOVER***HOVER****HOVER****/
 
@@ -356,4 +385,10 @@ footer i {
   line-height: 50px;
   padding: 0px 20px;
   font-size: 1.1em;
+}
+.colored-bar:hover{
+  background-color:rgb(131, 188, 65);
+}
+.colored-bar:hover .player-indicator{
+  display: block;
 }

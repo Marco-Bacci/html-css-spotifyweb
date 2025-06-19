@@ -45,7 +45,7 @@
           </ul>
         </nav>
         <h3 class="mt-20">Playlist</h3>
-        <ul>
+        <ul class="playlist-names">
           <li>
             <i class="fa-solid fa-square-plus"></i>
             <span>Crea Playlist</span>
@@ -66,8 +66,8 @@
         </span>
         <hr>
         <img src="./assets/img/profile.svg" alt="profile">
-        <span>
-          John Doe
+        <span class="c-white">
+          <strong>John Doe</strong>
         </span>
       </div>
     </div>
@@ -301,7 +301,10 @@
       <div class="d-flex items-center">
         <span>0:25</span>
         <div class="music-bar w-500">
-          <div class="colored-bar"></div>
+          <div class="colored-bar p-relative">
+            <div class="player-indicator"></div>
+          </div>
+
         </div>
         <span>4:35</span>
       </div>
@@ -313,7 +316,10 @@
         <i class="fa-solid fa-volume-up"></i>
       </div>
       <div class="music-bar w-100">
-        <div class="colored-bar"></div>
+        <div class="colored-bar p-relative">
+          <div class="player-indicator"></div>
+        </div>
+
       </div>
     </div>
 
