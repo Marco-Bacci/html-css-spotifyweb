@@ -21,6 +21,7 @@ li {
   padding: 10px 0px;
 }
 
+
 .down-bar hr {
   width: 200px;
   margin: 15px auto;
@@ -88,7 +89,7 @@ footer {
   width: 250px;
   height: 100%;
   background-color: black;
-  color: white;
+  color: rgb(125, 127, 132);
   overflow-y: auto;
 }
 
@@ -184,6 +185,10 @@ footer {
   color: rgb(125, 127, 132);
 }
 
+.c-white {
+  color: white;
+}
+
 .b-radius-50 {
   border-radius: 50%;
 }
@@ -199,6 +204,7 @@ footer {
   border: 1px solid white;
   border-radius: 50px;
   line-height: 40px;
+  cursor: pointer;
 }
 
 .down-line {
@@ -235,6 +241,7 @@ h3 {
 #side-bar span {
   line-height: 30px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 i {
@@ -332,6 +339,19 @@ footer i {
 }
 
 /****HOVER***HOVER****HOVER****/
+
 .cover:hover .overlay {
   display: block;
+}
+
+#side-bar span:hover,
+#main-content a:hover {
+  color: white;
+}
+
+.cta:hover {
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 20px;
+
 }
