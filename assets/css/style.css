@@ -55,6 +55,7 @@ a {
   color: rgb(125, 127, 132);
 }
 
+
 #main-content a {
   text-transform: uppercase;
   color: rgb(125, 127, 132);
@@ -345,7 +346,8 @@ footer i {
 }
 
 #side-bar span:hover,
-#main-content a:hover {
+#main-content a:hover,
+.tune .s-icons i:hover {
   color: white;
 }
 
@@ -353,5 +355,5 @@ footer i {
   height: 50px;
   line-height: 50px;
   padding: 0px 20px;
-
+  font-size: 1.1em;
 }
