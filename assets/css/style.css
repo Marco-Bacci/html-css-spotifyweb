@@ -21,8 +21,9 @@ li {
   padding: 10px 0px;
 }
 
-hr {
-  margin: 15px 0px;
+.down-bar hr {
+  width: 200px;
+  margin: 15px auto;
 }
 
 
@@ -81,13 +82,16 @@ footer {
 
 
 #side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 250px;
   height: 100%;
   background-color: black;
   color: white;
-  padding: 20px;
   overflow-y: auto;
 }
+  
 
 #topbar {
   display: flex;
@@ -124,6 +128,10 @@ footer {
   align-items: center;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .text-center {
   text-align: center;
 }
@@ -142,6 +150,9 @@ footer {
 
 .h-50 {
   height: 50%;
+}
+.w-50{
+  width: 50%;
 }
 
 .w-500 {
@@ -171,14 +182,22 @@ footer {
   border-radius: 50px;
   line-height: 40px;
 }
-
+.down-line {
+  height: 3px;
+  background-color: rgb(131, 188, 65);
+  margin: 5px;
+  border-radius: 50px;
+  margin-left: 25px
+}
 /******side-bar******/
-#side-bar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
+.home{
+  border-left: 3px solid rgb(131, 188, 65);
 }
 
+#side-bar li, .logo, h3{
+  padding: 15px;
+}
 
 .logo {
   width: 150px;
@@ -254,10 +273,12 @@ footer i {
   height: 4px;
   background-color: rgb(90, 90, 90);
   margin: 15px;
+  border-radius: 50px;
 }
 
 .colored-bar {
   height: 100%;
   width: 20%;
   background-color: white;
+  border-radius: 50px;
 }
