@@ -445,17 +445,26 @@ scale: 1.2;
   .col {
     width: calc(100% / 4 - 10px);
   }
-
+  .menu ul {
+    flex-wrap: wrap;
+  }
+  #main-content li {
+    font-size: 14px;
+    margin: 10px;
+    width: calc(100% / 5 - 20px);
+    text-align: center;
+  }
 
 }
+
+
+
 
 /********************************/
 @media screen and (max-width:950px) {
   .col {
     width: calc(100% / 2 - 10px);
   }
-
-  
 
   .menu ul {
     flex-wrap: wrap;
