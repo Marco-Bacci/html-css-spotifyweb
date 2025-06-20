@@ -62,7 +62,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  padding: 0px 15px;
+  padding: 0px 10px;
   background-color: rgb(40, 40, 40);
   color: white;
   gap: 5px;
@@ -113,9 +113,6 @@ footer {
   display: flex;
 }
 
-.grow-1 {
-  flex-grow: 1;
-}
 
 .shrink-0 {
   flex-shrink: 0;
@@ -153,8 +150,8 @@ footer {
   margin-right: 15px;
 }
 
-.mr-45 {
-  margin-right: 45px;
+.mr-25 {
+  margin-right: 25px;
 }
 
 .h-50 {
@@ -184,6 +181,10 @@ footer {
 
 .fs-4em {
   font-size: 4em;
+}
+
+.gap-10{
+  gap: 10px;
 }
 
 .c-lightgrey {
@@ -232,15 +233,14 @@ footer {
   height: 30px;
 }
 
-.pointer::after{
+.pointer::after {
   content: "";
   display: block;
   width: 35px;
   height: 3px;
   background-color: rgb(131, 188, 65);
   border-radius: 50px;
-  margin-top: 5px;
-  margin-left: 30px;
+  margin: 5px auto;
 }
 
 /**************Side bar content********************/
@@ -346,7 +346,6 @@ footer i {
 .settings {
   display: flex;
   align-items: center;
-  flex-grow: 1;
 }
 
 .song-lenght {
@@ -374,7 +373,6 @@ footer i {
   background-color: rgb(90, 90, 90);
   margin: 15px;
   border-radius: 50px;
-  min-width: 85px;
 }
 
 .colored-bar {
@@ -456,13 +454,9 @@ h6:hover {
     font-size: 14px;
     margin: 10px;
     width: calc(100% / 5 - 20px);
-    text-align: center;
   }
 
 }
-
-
-
 
 /********************************/
 @media screen and (max-width:768px) {
@@ -476,15 +470,20 @@ h6:hover {
 
 
   #main-content li {
-    font-size: 14px;
-    margin: 10px;
     width: calc(100% / 3 - 20px);
-    text-align: center;
+  }
+
+  .settings {
+    flex-direction: column
+  }
+
+  .name {
+    margin-right: 0px;
   }
 }
 
 /********************************/
-@media screen and (max-width:600px) {
+@media screen and (max-width:596px) {
   .big-screen {
     display: none;
     width: 250px;
@@ -495,7 +494,6 @@ h6:hover {
     width: 60px;
   }
 
-
   #content {
     height: 100%;
     width: calc(100vw - 60px);
@@ -503,36 +501,15 @@ h6:hover {
     overflow-y: auto;
   }
 
-  .menu ul {
-    flex-wrap: wrap;
-  }
-
-
   #main-content li {
-    font-size: 14px;
-    margin: 10px;
     width: calc(100% / 4 - 20px);
-    text-align: center;
   }
 
-  
-}
-@media screen and (max-width:600px){
-  .settings{
-    flex-shrink: 0;
-  }
-  .music-bar{
+  .song-name {
     display: none;
   }
-  .song-lenght{
-    min-width: 250px;
-  }
-  .player-console i{
+
+  .player-console i {
     margin: 0px 5px;
   }
-  .name{
-    display:none
-  }
 }
-
-  
