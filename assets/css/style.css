@@ -65,7 +65,7 @@ footer {
   padding: 0px 15px;
   background-color: rgb(40, 40, 40);
   color: white;
-  gap: 10px;
+  gap: 5px;
 }
 
 /*****************SIDE BARS*****************/
@@ -83,7 +83,7 @@ footer {
   display: flex;
   width: 250px;
 }
-  
+
 
 .small-screen {
   display: none;
@@ -222,24 +222,25 @@ footer {
 }
 
 /***********POINTER LINES***********************/
-.pointer-line {
+.vertical-pointer {
   position: absolute;
   background-color: rgb(131, 188, 65);
   border-radius: 50px;
-}
-
-.horizontal {
-  top: 25px;
-  left: 25px;
-  height: 3px;
-  width: 50px;
-}
-
-.vertical {
   top: 10px;
   left: -15px;
   width: 3px;
   height: 30px;
+}
+
+.pointer::after{
+  content: "";
+  display: block;
+  width: 35px;
+  height: 3px;
+  background-color: rgb(131, 188, 65);
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: 30px;
 }
 
 /**************Side bar content********************/
@@ -268,9 +269,9 @@ i {
   margin-right: 5px;
 }
 
-.playlist-names ul{
-height: 40vh;
-overflow-y: auto;
+.playlist-names ul {
+  height: 40vh;
+  overflow-y: auto;
 }
 
 
@@ -433,21 +434,24 @@ h6:hover {
 #side-bar i:hover {
   color: white;
 }
-.play-btn:hover{
-scale: 1.2;
+
+.play-btn:hover {
+  scale: 1.2;
 }
 
 
 /*****MEDIA QUERY*****MEDIA QUERY*****MEDIA QUERY*****/
 /*TABLET*/
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:992px) {
   .col {
     width: calc(100% / 4 - 10px);
   }
+
   .menu ul {
     flex-wrap: wrap;
   }
+
   #main-content li {
     font-size: 14px;
     margin: 10px;
@@ -461,7 +465,7 @@ scale: 1.2;
 
 
 /********************************/
-@media screen and (max-width:950px) {
+@media screen and (max-width:768px) {
   .col {
     width: calc(100% / 2 - 10px);
   }
@@ -480,7 +484,7 @@ scale: 1.2;
 }
 
 /********************************/
-@media screen and (max-width:786px) {
+@media screen and (max-width:600px) {
   .big-screen {
     display: none;
     width: 250px;
@@ -490,11 +494,45 @@ scale: 1.2;
     display: flex;
     width: 60px;
   }
+
+
+  #content {
+    height: 100%;
+    width: calc(100vw - 60px);
+    background-color: rgb(20, 25, 34);
+    overflow-y: auto;
+  }
+
+  .menu ul {
+    flex-wrap: wrap;
+  }
+
+
+  #main-content li {
+    font-size: 14px;
+    margin: 10px;
+    width: calc(100% / 4 - 20px);
+    text-align: center;
+  }
+
+  
+}
+@media screen and (max-width:600px){
+  .settings{
+    flex-shrink: 0;
+  }
+  .music-bar{
+    display: none;
+  }
+  .song-lenght{
+    min-width: 250px;
+  }
+  .player-console i{
+    margin: 0px 5px;
+  }
+  .name{
+    display:none
+  }
 }
 
-#content {
-  height: 100%;
-  width: calc(100vw - 60px);
-  background-color: rgb(20, 25, 34);
-  overflow-y: auto;
-}
+  
