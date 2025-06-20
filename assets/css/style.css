@@ -408,7 +408,8 @@ footer i {
 
 #side-bar span:hover,
 #main-content a:hover,
-.tune .s-icons i:hover {
+.tune .s-icons i:hover,
+.playlist-creator:hover {
   color: white;
 }
 
