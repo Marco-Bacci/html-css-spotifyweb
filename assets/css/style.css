@@ -426,6 +426,10 @@ h6:hover {
 #side-bar i:hover {
   color: white;
 }
+.play-btn:hover{
+scale: 1.2;
+}
+
 
 /*****MEDIA QUERY*****MEDIA QUERY*****MEDIA QUERY*****/
 /*TABLET*/
