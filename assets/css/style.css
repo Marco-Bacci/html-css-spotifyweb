@@ -77,7 +77,9 @@ footer {
   padding: 15px;
   background-color: black;
   color: rgb(125, 127, 132);
+  overflow-y: auto;
 }
+  
 
 .big-screen {
   display: flex;
@@ -114,10 +116,6 @@ footer {
 }
 
 
-.shrink-0 {
-  flex-shrink: 0;
-}
-
 .items-center {
   align-items: center;
 }
@@ -138,33 +136,13 @@ footer {
   position: relative;
 }
 
-.p-absolute {
-  position: absolute;
-}
-
 .mt-20 {
   margin-top: 20px;
-}
-
-.mr-15 {
-  margin-right: 15px;
 }
 
 .mr-25 {
   margin-right: 25px;
 }
-
-.h-20{
-  height: 20px;
-}
-.h-50 {
-  height: 50%;
-}
-
-.w-50 {
-  width: 50%;
-}
-
 
 .w-100 {
   width: 100px;
@@ -172,10 +150,6 @@ footer {
 
 .p-w-100 {
   width: 100%;
-}
-
-.pd-10 {
-  padding: 10px;
 }
 
 .fs-2em {
@@ -201,7 +175,6 @@ footer {
 .b-radius-50 {
   border-radius: 50%;
 }
-
 
 /**************************************/
 /******top-bar******/
@@ -360,7 +333,6 @@ footer i {
   max-width: 500px;
   min-width: 290px;
 }
-
 
 .player-console i {
   margin: 0px 15px;
